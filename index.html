@@ -41,7 +41,6 @@
         <script>
             try {
                 $(document).ready(function() {
-                    console.time('one circle');
                     var diameter = $(".circle").width();
                     var radius = diameter / 2;
                     $(window).on("mousemove", function(e) {
@@ -68,7 +67,6 @@
                             })();
                         });
                     });
-                    console.timeEnd('one circle');
                 });
             } 
             catch(err) {
